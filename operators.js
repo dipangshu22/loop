@@ -5,7 +5,7 @@
 // console.log(a)
 
 
-// ternary operator
+// ternary method
 // const a=27
 // let age=a>18?"adult":"child"
 // console.log(age)
