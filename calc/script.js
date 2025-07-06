@@ -1,8 +1,14 @@
-let a=document.getElementById("one").value
-let b=document.getElementById("two").value
+let user=prompt("enter the no")
 
-function result(){
-    let result=a+b
-    console.log(result)
+let arr=[]
+
+for(let i=1; i<=user; i++){
+    arr[i-1]=i
 }
 
+
+let output=arr.reduce((a,b)=>{
+    return a+b
+})
+
+console.log(output)
